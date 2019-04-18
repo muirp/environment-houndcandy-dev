@@ -1,0 +1,35 @@
+apiVersion: v1
+data:
+  ca.crt: |
+    -----BEGIN CERTIFICATE-----
+    MIIDCzCCAfOgAwIBAgIQQuiG+P6NNt8hvabWN6YkqDANBgkqhkiG9w0BAQsFADAv
+    MS0wKwYDVQQDEyQwODRjMjk3Mi1lODkyLTQ2YWUtYTBhMy02YjI4OTMxYjcxZjQw
+    HhcNMTkwNDE4MDgxNzQzWhcNMjQwNDE2MDkxNzQzWjAvMS0wKwYDVQQDEyQwODRj
+    Mjk3Mi1lODkyLTQ2YWUtYTBhMy02YjI4OTMxYjcxZjQwggEiMA0GCSqGSIb3DQEB
+    AQUAA4IBDwAwggEKAoIBAQDWVHHrMjN4r5qmz4esH2fcuIY0I+crZbL9b+FfPaR3
+    0jNwZrFBXfSLEzy8UmUqCEpH/qlpJJNlf//5kSRWehUXxOcoKh46Jl7Pmr/O49ur
+    9Uwpl6fBALhZ6XFbsLhJLGBCT4kDfpMkG6fZCufZflfo4j3ECBM0z1tbUPdpEWo4
+    dahqqcd2Kpx/eu+jJc+bmFZRgcQT3A9QpF15ipxtbjjCy/yaG5RnlDZ7SvTvYBEp
+    0mfXTvEQa5/tabBQ5vBtPgdFkONJuG4TVpoce1ylyotCM7zAKVvq9Dsm663MDqPc
+    yPChx5thjcBmF8vtkko5pyuu/EGxMEatGdQe0Lko9C5BAgMBAAGjIzAhMA4GA1Ud
+    DwEB/wQEAwICBDAPBgNVHRMBAf8EBTADAQH/MA0GCSqGSIb3DQEBCwUAA4IBAQCs
+    XTwd39iCgP/C9h2QvrD5reqpoY+DmyVz6PK0HBwVYfEcfTYjrsbtAJcuo1TF/a5K
+    0G1yAn75MjejlvOACtYuG1VS1se4neIhar5jd9rPklbqW8w8He0ahGnS9WQWDMWr
+    9VVXjQQVafPyXIcboAAwXZhXBFWy5JuwOppNXaC8INUJg909XfM5DOUXekL1Q0CV
+    BbkmkRY5vHo0Jj2QC5tDLWEwngRxJtrLv7gT6tjClQjSRrrYEYEQiVtM4yhQyn9A
+    75Rb1i7IRgAR9di8Lnz3yGBCzI3NEFVLPjYNicpbsSxsXnswLAxrmrLutYAkFibQ
+    bmwvGHbDSQeURHveqtDc
+    -----END CERTIFICATE-----
+  clusterName: houndcandy
+  jx-install-version: 2.0.11
+  kubeProvider: gke
+  projectID: apps-dev-229310
+  region: ""
+  secretsLocation: vault
+  server: https://104.199.72.148
+  systemVaultName: jx-vault-houndcandy
+  zone: europe-west1-d
+kind: ConfigMap
+metadata:
+  creationTimestamp: null
+  name: jx-install-config
